@@ -7,6 +7,7 @@ focus_tree = {
 			OR ={
 				tag = USA
 				tag = JAP
+				tag = SWI
 			}
 			factor = -40
 		}
