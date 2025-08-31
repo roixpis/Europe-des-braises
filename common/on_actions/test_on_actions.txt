@@ -1,0 +1,76 @@
+on_actions = {
+    on_daily = {
+        effect = {
+            if = {
+                limit = {
+                    JAP = {
+                        controls_state = 613   # Le Japon occupe ou possède l’état
+                    }
+                }
+                USA = {
+                    country_event = { id = USA.69 }
+                }
+            }
+        }
+    }
+    on_capitulation = {
+    effect = {
+        if = {
+            limit = { tag = JAP }  
+            USA = { 
+                puppet = JAP
+                transfer_state = 633
+                transfer_state = 684
+                transfer_state = 647
+                transfer_state = 645
+                transfer_state = 648
+                transfer_state = 646
+            }
+
+            JAP = {
+                transfer_state = 528   
+                transfer_state = 530   
+                transfer_state = 529
+                transfer_state = 531   
+                transfer_state = 532
+                transfer_state = 535
+                transfer_state = 282
+                transfer_state = 534
+                transfer_state = 533
+                transfer_state = 536
+            }
+
+            release = KOR
+            
+            CHI = {
+                transfer_state = 524  
+                transfer_state = 526
+                transfer_state = 609
+                transfer_state = 745
+            }
+
+            MON = {
+                transfer_state = 612
+            }
+            
+            SOV = {
+                transfer_state = 537
+                transfer_state = 761
+                transfer_state = 714
+                transfer_state = 717
+                transfer_state = 555
+                transfer_state = 328
+                transfer_state = 715
+                transfer_state = 611
+                transfer_state = 610
+                transfer_state = 716
+            }
+         
+            JAP = {
+                set_cosmetic_tag = Japan_occupied
+            }
+
+        }
+    }
+}
+}

@@ -1,0 +1,48 @@
+ideas = {
+
+	country = {
+		USA_intervensionism = {
+			name = USA_intervensionism
+			picture = generic_production_bonus
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				join_faction_tension = -1
+				send_volunteers_tension = -1
+				guarantee_tension = -1
+				embargo_threshold_factor = -1
+				military_factory_donations = 3
+				
+			}
+		}
+
+		USA_great_asian_war = {
+			name = USA_great_asian_war
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+            modifier = {
+				planning_speed = 0.3
+				command_power_gain = 3
+				war_support_weekly = 0.1
+			}
+			targeted_modifier = {
+				tag = JAP
+				attack_bonus_against = 0.2
+			}
+			targeted_modifier = {
+				tag = JAP
+				defense_bonus_against = 0.1
+			}
+		}
+    }
+}

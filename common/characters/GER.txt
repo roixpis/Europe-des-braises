@@ -1,0 +1,13 @@
+characters = {
+	GER_paul_von_hindenburg = {
+		name = "Paul von Hidenburg"
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GER/portrait_GER_paul_von_hidenburg.png"
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+		}
+	}
+}

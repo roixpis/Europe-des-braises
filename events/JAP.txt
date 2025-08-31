@@ -1,0 +1,13 @@
+add_namespace = JAP
+country_event = {
+	id = JAP.69
+	desc = JAP.69.d
+	title = JAP.69.t
+
+	fire_only_once = 1
+
+	option = {
+		name = JAP.69.a
+		add_ideas = JAP_great_asian_war
+	}
+}

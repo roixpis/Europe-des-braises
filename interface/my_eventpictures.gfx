@@ -1,0 +1,4 @@
+spriteType = {
+	name = GFX_report_news_china_help
+	texturefile = "gfx/event_pictures/report_news_china_help.png"
+}

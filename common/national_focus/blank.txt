@@ -1,0 +1,19 @@
+focus_tree = {
+	id = BLANK
+	
+	country = {
+		factor = 50
+		modifier = {
+			OR ={
+				tag = USA
+				tag = JAP
+			}
+			factor = -40
+		}
+
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+}

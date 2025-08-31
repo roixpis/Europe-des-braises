@@ -1,0 +1,32 @@
+ideas = {
+	
+	country = {
+		JAP_great_asian_war = {
+			name = JAP_great_asian_war
+			picture = GFX_idea_JAP_the_great_asian_war
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+
+			targeted_modifier = {
+					tag = CHI
+					attack_bonus_against = -0.5
+				}
+
+			targeted_modifier = {
+					tag = CHi
+					defense_bonus_against = -0.1
+				}	
+
+			targeted_modifier = {
+					tag = USA
+					defense_bonus_against = -0.2
+				}	
+			modifier = {}
+		}
+	}
+}

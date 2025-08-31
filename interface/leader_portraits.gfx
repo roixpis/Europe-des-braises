@@ -1,0 +1,4 @@
+spriteType = {
+	name = GFX_portrait_GER_paul_von_hidenburg
+	texturefile = "gfx/leaders/GER/portrait_GER_paul_von_hidenburg.png"
+}

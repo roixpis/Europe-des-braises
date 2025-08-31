@@ -1,0 +1,5 @@
+spriteType = {
+	name = GFX_idea_JAP_the_great_asian_war
+	texturefile = "gfx/interface/ideas/JAP_the_great_asian_war.png"
+
+}

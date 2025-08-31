@@ -1,0 +1,9 @@
+ENG_puppet_cosmetic = {
+    color = {250 75 75}
+    color_ui = { 250 75 75 }
+}
+
+Japan_occupied = {
+    color = rgb {0 102 204}
+    color_ui = rgb {0 102 204}
+}
